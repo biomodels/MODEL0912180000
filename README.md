@@ -1,3 +1,21 @@
+# MODEL0912180000: calzone_etal_2010_cellfate_master_model
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/MODEL0912180000.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/MODEL0912180000.git@20140916`
+
+
+# Model Notes
 
 
 **Attention:** As this model cannot be encoded in SBML at this time, the SBML file contains the whole model in [GINML](http://gin.univ-mrs.fr/GINsim/ginml.html) , a different XML model description language, in its main annotation element. Still, the model can be loaded by [GINsim](http://gin.univ-mrs.fr/GINsim/) as it is by just ignoring the error messages. Alternatively, you can remove the surrounding SBML elements in a text editor and save the remaining GINsim file with the suffix _.ginml_ . To do this keep the first line with the xml declaration and all lines starting from `<gxl xmlns="http://gin.univ-mrs.fr/GINsim/" xmlns:xlink="http://www.w3.org/1999/xlink">` until `</glx>` and delete or comment out all others.   
@@ -54,4 +72,5 @@ Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL,
 Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated
 and annotated resource for published quantitative kinetic models. BMC Syst
 Biol., 4:92.](http://www.ncbi.nlm.nih.gov/pubmed/20587024)
+
 
